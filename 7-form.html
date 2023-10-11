@@ -1,0 +1,139 @@
+
+<!-- saved from url=(0031)http://127.0.0.1:5500/form.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="backend.php" method="post" autocomplete="off" fieldset>
+       
+            <table align="center" fieldset>
+                <tbody>
+                    
+                    <tr><th><h1>Registration Form</h1></th></tr>
+                    <tr>
+                    <td><label for="Username">User Name</label></td>
+                    <td><input type="text" fdprocessedid="q8kphp"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" fdprocessedid="h6ozg4"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email id">Email id</label></td>
+                    <td><input type="email" name="" id="email" fdprocessedid="6cwas"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile no:">Mobile no:</label></td>
+                    <td><input type="tel" name="" id="mobile" fdprocessedid="knak8p"></td>
+                </tr>
+           
+         
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" name="" id="age" fdprocessedid="kea83"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                        <td>Male<input type="radio" name="Gender" id="">
+                        Female<input type="radio" name="Gender" id="">
+                        Others<input type="radio" name="Gender" id="">
+                    </td>
+                    </tr><tr>
+                        <td><label for="hobbies">Hobbies</label></td>
+                        <td>
+                        Cricket<input type="checkbox" name="" id=""><br>
+                        Reading<input type="checkbox" name="" id=""><br>
+                        Travelling<input type="checkbox" name="" id=""><br>
+                        Dancing<input type="checkbox" name="" id=""></td><br>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="hobbies">Write your hobbies</label></td>
+                        <td><input type="text" id="" name=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Address">Address</label></td>
+                        <td><textarea name="" id="" cols="15" rows="5"></textarea></td>
+    
+                    </tr>
+                    <tr>
+                        <td><label for="City">City</label></td>
+                        <td><select name="city" id="" fdprocessedid="46j6rx">
+                            <option value=""></option>
+                            <option>Ahmedabad</option>
+                            <option>Banglore</option>
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+
+                         </select></td>
+                                       </tr>
+
+                        <tr>
+                            <td><label for="education">Education</label></td>
+                            <td><select name="Education" multiple> fdprocessedid="l03b4o">
+                                
+                                <option value="tenth">10th</option>
+                                <option value="2">12th</option>
+                                <option value="3">Bsc</option>
+                                <option value="4">B.E</option>
+                                <option value="5">MBBS</option>
+                            </select> </td>
+                        </tr>  
+                      
+                    
+                    <tr>
+                        <td><label for="Date-of-birth">D-O-B</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><input type="submit" fdprocessedid="dr02aw"></td>
+                    </tr>
+            </tbody></table>
+        </form><fieldset></fieldset></form>
+        
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    
+</body></html>

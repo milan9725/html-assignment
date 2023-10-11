@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/table.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">European Roulette</h1>
+    <table align="center" width="80%" border="1">
+        <tbody><tr>
+            <td rowspan="5">0</td>
+            <td div="" class="content">3</td>
+            <td div="" class="content">6</td>
+            <td div="" class="content">9</td>
+            <td div="" class="content">12</td>
+            <td div="" class="content">15</td>
+            <td div="" class="content">18</td>
+            <td div="" class="content">21</td>
+            <td div="" class="content">24</td>
+            <td div="" class="content">27</td>
+            <td div="" class="content">30</td>
+            <td div="" class="content">33</td>
+            <td div="" class="content">36</td>
+            <td div="" class="content">2to1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>8</td>
+                <td>11</td>
+                <td>14</td>
+                <td>17</td>
+                <td>20</td>
+                <td>23</td>
+                <td>26</td>
+                <td>29</td>
+                <td>32</td>
+                <td>35</td>
+                <td>2to1</td>
+
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>4</td>
+                <td>7</td>
+                <td>10</td>
+                <td>13</td>
+                <td>16</td>
+                <td>19</td>
+                <td>22</td>
+                <td>25</td>
+                <td>28</td>
+                <td>31</td>
+                <td>34</td>
+                <td>2to1</td>
+                
+              </tr>
+
+              <tr>
+                <td colspan="4">1st12</td>
+                <td colspan="4">2nd12</td>
+                <td colspan="4">3rd12</td>
+              </tr>
+              <tr>
+                <td colspan="2">1to18</td>
+                <td colspan="2">EVEN</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+                <td colspan="2">OOD</td>
+                <td colspan="2">19to36</td>
+
+              </tr>
+
+        
+ 
+                                
+
+      
+    </tbody></table>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
